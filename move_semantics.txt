@@ -1,0 +1,15 @@
+Move semantics
+
+Keinen unnützen (leeren) Konsturktor, Destruktor anlegen
+
+Kein unnötiges return move(x)
+
+The rule of five
+
+move construtor, move assignment, swap declare WITH noexcept
+... this enables move in vectors instead of using copy ctor + expensive destructor p.123
+
+
+
+lvalue = location value
+rvalue = readable value
